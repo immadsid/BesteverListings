@@ -30,7 +30,7 @@ const Footer = () => {
           alt="logo"
         />
       </div>
-      <ul className="flex flex-wrap justify-center sm:justify-start gap-4 sm:gap-8 mt-4 sm:mt-8">
+      <ul className="flex flex-wrap justify-center  gap-4 sm:gap-[120px] mt-4 sm:mt-8">
         <li className="mb-2 sm:mb-0">Feature</li>
         <li className="mb-2 sm:mb-0">Pricing</li>
         <li className="mb-2 sm:mb-0">Listings</li>

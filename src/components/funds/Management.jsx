@@ -4,7 +4,7 @@ const Management = () => {
   return (
     <div>
       <h1 className="text-[40px] text-center mt-[100px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-[500]">
-        Manag{" "}
+        Manag
         <span className="bg-clip-text text-transparent bg-[linear-gradient(103deg,_#3B338B_-73.19%,_#D460A3_177.21%)]">
           ement
         </span>

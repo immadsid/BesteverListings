@@ -12,8 +12,15 @@ const Card = () => {
   return (
     <div className="mt-10 grid sm:grid-cols-2 grid-cols-1 w-full justify-center gap-4">
       {cardData.map((card) => (
-        <div key={card} className="max-w-[390px] max-h-[620px] text-gray-600 rounded-[18px] bg-gray-100 flex-shrink-0 p-4">
-          <img src={card} alt="cover" className="rounded-[18px] w-[363px] h-[255px] object-cover aspect-square" />
+        <div
+          key={card}
+          className="max-w-[390px] max-h-[620px] text-gray-600 rounded-[18px] bg-gray-100 flex-shrink-0 p-4"
+        >
+          <img
+            src={card}
+            alt="cover"
+            className="rounded-[18px] w-[363px] h-[255px] object-cover aspect-square"
+          />
           {/* <ImageBar /> */}
           <div className="mt-8">
             <div>
